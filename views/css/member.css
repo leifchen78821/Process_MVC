@@ -49,19 +49,29 @@ a{
     text-decoration:none!important;
 }
 #pic_go {
-
     float: left;
     font-size: 20px;
     color:black;
     -webkit-transition: all .3s ease-out ;
 }
 #pic_go:hover {
-
     float: left;
-    font-size: 40px;
+    font-size: 30px;
     color:red;
 }
 #button_changePassword {
     font-family:Microsoft JhengHei;
     font-size: 20px;
+}
+
+#deletebut {
+    font-family:Microsoft JhengHei;
+    font-size: 20px;
+    border:none;
+    background:none;
+    -webkit-transition: all .3s ease-out ;
+}
+#deletebut:hover {
+    font-size: 30px;
+    color:red;
 }
