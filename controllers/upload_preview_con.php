@@ -1,5 +1,11 @@
 <?php
 
+if ($_COOKIE["userName"] == "Guest") {
+	echo "<script language='JavaScript'>";
+	echo "alert('你不應該來這呦!!!');location.href='connect4site.php';";
+	echo "</script>";
+}
+else {
 	session_start();
 	require("../models/upload_preview_mod.php");
      
@@ -21,5 +27,6 @@
 			exit();
 		}
 	}
-	
+}
+
 ?>
