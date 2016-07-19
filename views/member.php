@@ -80,6 +80,7 @@ require("../controllers/member_con.php");
                     <br>
                     <a href = "article.php?ArticleID=<?php echo $row02["uID"]?>"><div id = "pic_go"><img src="img/go.gif" width="100" >前去看看</div></a>
                     <a href = "update.php?ArticleID=<?php echo $row02["uID"]?>"><div id = "pic_go"><img src="img/changearticle.gif" width="100"  >修改文章</div></a>
+                    <div id = "pic_go"><button id = "deletebut" name = "deletebut" type = "button" onclick = "click_delete(<?php echo $row02["uID"] ?>)"><img src="img/delete.gif" width="100"  >刪除文章</button></div>
                 </div>
                 <?php endwhile ?>
                 <div style="clear:both;"></div>
@@ -110,6 +111,12 @@ require("../controllers/member_con.php");
         </div>
         <?php endif ?>
     </div>
-        
+        <script>
+            function click_delete(id) {
+                if(confirm('確定刪除?(資料將無法回復)')) {
+                    location.href = 'member.php?choose=2&delete=' + id ;
+                }
+            }
+        </script>
 </body>
 </html>
