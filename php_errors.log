@@ -36,3 +36,16 @@
 [18-Jul-2016 08:48:59 UTC] PHP Stack trace:
 [18-Jul-2016 08:48:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/_Feng_Chia_Web_MVC/views/changepassword.php:0
 [18-Jul-2016 08:48:59 UTC] PHP   2. require() /home/ubuntu/workspace/_Feng_Chia_Web_MVC/views/changepassword.php:3
+[19-Jul-2016 07:42:32 UTC] PHP Fatal error:  Class 'getdata' not found in /home/ubuntu/workspace/_Feng_Chia_Web_MVC/models/registration_mod_check_ajax.php on line 7
+[19-Jul-2016 07:42:32 UTC] PHP Stack trace:
+[19-Jul-2016 07:42:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/_Feng_Chia_Web_MVC/models/registration_mod_check_ajax.php:0
+[19-Jul-2016 07:44:56 UTC] PHP Fatal error:  Class 'getdata' not found in /home/ubuntu/workspace/_Feng_Chia_Web_MVC/models/registration_mod_check_ajax.php on line 7
+[19-Jul-2016 07:44:56 UTC] PHP Stack trace:
+[19-Jul-2016 07:44:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/_Feng_Chia_Web_MVC/models/registration_mod_check_ajax.php:0
+[19-Jul-2016 07:56:02 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/_Feng_Chia_Web_MVC/models/registration_mod_check_ajax.php on line 11
+[19-Jul-2016 07:56:05 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/_Feng_Chia_Web_MVC/models/registration_mod_check_ajax.php on line 11
+[19-Jul-2016 08:17:00 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/_Feng_Chia_Web_MVC/models/registration_mod_check_ajax.php on line 13
+[19-Jul-2016 08:17:14 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/_Feng_Chia_Web_MVC/models/registration_mod_check_ajax.php on line 13
+[19-Jul-2016 08:21:28 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/_Feng_Chia_Web_MVC/models/registration_mod_check_ajax.php on line 13
+[19-Jul-2016 08:21:31 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/_Feng_Chia_Web_MVC/models/registration_mod_check_ajax.php on line 13
+[19-Jul-2016 08:21:35 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/_Feng_Chia_Web_MVC/models/registration_mod_check_ajax.php on line 13
