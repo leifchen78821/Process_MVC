@@ -14,14 +14,17 @@ require("../controllers/login_con.php");
 
 <body>
   <form data-ajax="false" id="form1" name="form1" method="post">
-    <div align="center" id="back_index" style="">
-      <span style="color: white;">會員系統 - 登入<br><br><br><br><br><br><br><br></span>
+    <div align="center" id="back_index">
+      <span style="color: white;" style = "">會員系統 - 登入<br><br><br><br><br><br><br><br></span>
         <div id="circle" style=""> 
-        <div id="long02" style="top: 30% ;"></div>
-        <div id="long03" style="top: 33% ;"></div>
-        <div id="long01" style=""></div>
-        <div id="long02" style=""></div>
-        <div id="long03" style=""></div>
+        <!--<div id="long02" style="top: 30% ;"></div>-->
+        <!--<div id="long03" style="top: 33% ;"></div>-->
+        <!--<div id="long01" style=""></div>-->
+        <!--<div id="long02" style=""></div>-->
+        <!--<div id="long03" style=""></div>-->
+        <div id = "loginimg" name = "loginimg"  style = "background-image: url(img/login.jpg);">
+          
+        </div>
         <div style="color: #778899 ; top: 52% ; left: -410px ;"><br>帳號</div>
         <div valign="baseline"><input type="text" name="txtUserName" id="txtUserName" value="<?php echo $sUserName ;?>" /></div>
         <div style="color: #778899 ; top: 52% ; left: -410px ;"><br>密碼</div>

@@ -2,7 +2,7 @@
 
 if ($_COOKIE["userName"] == "Guest") {
 	echo "<script language='JavaScript'>";
-	echo "alert('你不應該來這呦!!!');location.href='connect4site.php';";
+	echo "alert('你不應該來這呦!!!');location.href='index.php';";
 	echo "</script>";
 }
 else {
