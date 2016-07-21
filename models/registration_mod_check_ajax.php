@@ -7,18 +7,15 @@ mysql_selectdb("monographic",$link);
 $Member = "select * from MemberProfile ;" ;
 $result = mysql_query($Member, $link);
 $i = 0 ;
-while($row = mysql_fetch_assoc($result))
-{
+while($row = mysql_fetch_assoc($result)) {
     if($_GET["userName"] == $row["Name"]){
         $i = 1 ;
     }
 }
-if($i == 0)
-{
+if($i == 0) {
     $ref = true;
 }
-else
-{
+else {
     $ref = false;
 }
 echo $ref;

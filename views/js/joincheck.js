@@ -1,4 +1,5 @@
 function getData(val) {
+	// 將帳號即時帶入php 並連結資料庫進行比對 再將比對結果回傳
     $.get("../models/registration_mod_check_ajax.php?userName=" + val, 
         function(data)
         {
@@ -27,12 +28,15 @@ function pasch() {
 		}
 	}
 }
+
+// 網頁讀取後即開始以下程式
 $(document).ready(function() {
+	// 帳號
 	$("#mas1").html("　");
 	$("#txtUserName").on("keyup",function() {
 		getData($("#txtUserName").val());
 	})
-	
+	// 密碼
 	$("#mas2").html("　");
 	$("#txtPasswordcheck").on("keyup",function() {
         pasch();

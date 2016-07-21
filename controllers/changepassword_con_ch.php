@@ -1,7 +1,7 @@
 <?php
 
 header("Content-Type:text/html; charset=utf-8");
-  
+// 密碼修改確認視窗
 if (isset($_POST["btnOK"])) {
     $sUserPassword = $_POST["txtPassword"];
     $sUserPasswordcheck = $_POST["txtPasswordcheck"];
